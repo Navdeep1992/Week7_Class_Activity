@@ -20,6 +20,25 @@ public class week7 {
             System.out.println(array[i]);
         }
 
+        System.out.println("Displaying array in Ascending order");
+        Arrays.sort(array);
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(array[i]);
+        }
+
+        System.out.println("Displaying odds of the array");
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 != 0)
+                System.out.println(array[i]);
+        }
+
+        System.out.println("Displaying evens of the array");
+        for (int i = 0; i < array.length; i++) {
+            if (i % 2 == 0)
+                System.out.println(array[i]);
+        }
+
+
     }
 
 
